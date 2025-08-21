@@ -34,7 +34,7 @@ const CeremonialLaunch = () => {
       <div className="absolute inset-0 opacity-[0.06] animate-subtle-float">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <img 
-            src="public/sac-Preloader.png" 
+            src="/sac-Preloader.png" 
             alt="SAC Watermark" 
             className="w-96 h-96 md:w-[600px] md:h-[600px] object-contain"
           />
@@ -45,7 +45,7 @@ const CeremonialLaunch = () => {
       <header className="relative z-10 flex justify-between items-center p-6 md:p-12">
         <div className={`transition-all duration-1000 ${isAnimationStarted ? 'animate-fade-up' : ''}`}>
           <img 
-            src="public/vce-Preloader.png"
+            src="/vce-Preloader.png"
             alt="Vardhaman College of Engineering" 
             className="h-16 md:h-24 lg:h-32 object-contain"
           />
@@ -53,7 +53,7 @@ const CeremonialLaunch = () => {
         
         <div className={`transition-all duration-1000 delay-200 ${isAnimationStarted ? 'animate-fade-up' : ''}`}>
           <img 
-            src="public/sac-Preloader.png" 
+            src="/sac-Preloader.png" 
             alt="Student Affairs Cell" 
             className="h-16 md:h-24 lg:h-32 object-contain"
           />
